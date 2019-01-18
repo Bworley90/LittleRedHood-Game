@@ -14,6 +14,9 @@ public class GameInfo : MonoBehaviour
     // Player Info
     public GameObject playerUI;
 
+    public int maxHealth;
+    public int playerHealth;
+
     private void Start()
     {
         fruitCountMultiplier = 1;

@@ -31,7 +31,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 6e5cb16529e8f754d9962e04d1791f7a, type: 3}
-    totalSpriteSurfaceArea: 3460573
+    totalSpriteSurfaceArea: 3519229
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -6362,6 +6362,63 @@ SpriteAtlas:
   - {fileID: 21300076, guid: 6bf79d647d5647141a64cc7cd5e51d9d, type: 3}
   - {fileID: 21300084, guid: 6bf79d647d5647141a64cc7cd5e51d9d, type: 3}
   - {fileID: 21300086, guid: 6bf79d647d5647141a64cc7cd5e51d9d, type: 3}
+  - {fileID: 21300018, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300016, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300076, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300078, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300006, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300058, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300004, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300056, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300002, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300000, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300060, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300014, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300062, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300012, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300098, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300110, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300064, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300010, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300096, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300066, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300046, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300008, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300068, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300044, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300036, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300070, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300042, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300038, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300090, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300072, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300040, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300032, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300088, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300074, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300054, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300034, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300094, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300052, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300028, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300092, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300050, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300030, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300082, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300048, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300024, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300080, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300026, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300086, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300020, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300084, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300022, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300104, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300106, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300100, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300102, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300108, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
+  - {fileID: 21300112, guid: 56633de476ced7e40ad9a25913bcb389, type: 3}
   - {fileID: 21300030, guid: 351b4545d01959549b2a728bdd395eec, type: 3}
   - {fileID: 21300028, guid: 351b4545d01959549b2a728bdd395eec, type: 3}
   - {fileID: 21300026, guid: 351b4545d01959549b2a728bdd395eec, type: 3}
@@ -14032,6 +14089,63 @@ SpriteAtlas:
   - Inner_38
   - Inner_42
   - Inner_43
+  - heartshealth_9
+  - heartshealth_8
+  - heartshealth_38
+  - heartshealth_39
+  - heartshealth_3
+  - heartshealth_29
+  - heartshealth_2
+  - heartshealth_28
+  - heartshealth_1
+  - heartshealth_0
+  - heartshealth_30
+  - heartshealth_7
+  - heartshealth_31
+  - heartshealth_6
+  - heartshealth_49
+  - Full Heart
+  - heartshealth_32
+  - heartshealth_5
+  - heartshealth_48
+  - heartshealth_33
+  - heartshealth_23
+  - heartshealth_4
+  - heartshealth_34
+  - heartshealth_22
+  - heartshealth_18
+  - heartshealth_35
+  - heartshealth_21
+  - heartshealth_19
+  - heartshealth_45
+  - heartshealth_36
+  - heartshealth_20
+  - heartshealth_16
+  - heartshealth_44
+  - heartshealth_37
+  - heartshealth_27
+  - heartshealth_17
+  - heartshealth_47
+  - heartshealth_26
+  - heartshealth_14
+  - heartshealth_46
+  - heartshealth_25
+  - heartshealth_15
+  - heartshealth_41
+  - heartshealth_24
+  - heartshealth_12
+  - heartshealth_40
+  - heartshealth_13
+  - heartshealth_43
+  - heartshealth_10
+  - heartshealth_42
+  - heartshealth_11
+  - heartshealth_52
+  - heartshealth_53
+  - heartshealth_50
+  - heartshealth_51
+  - heartshealth_54
+  - Empty Heart
   - modified gfx melee sprites_15
   - modified gfx melee sprites_14
   - modified gfx melee sprites_13
