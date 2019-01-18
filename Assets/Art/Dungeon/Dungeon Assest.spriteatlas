@@ -2536,7 +2536,6 @@ SpriteAtlas:
   - {fileID: 21312078, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
   - {fileID: 21305300, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
   - {fileID: 21301660, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
-  - {fileID: 21305204, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
   - {fileID: 21309684, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
   - {fileID: 21309668, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
   - {fileID: 21309104, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
@@ -5564,6 +5563,7 @@ SpriteAtlas:
   - {fileID: 21305558, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
   - {fileID: 21305402, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
   - {fileID: 21305430, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
+  - {fileID: 21305204, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
   - {fileID: 21301328, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
   - {fileID: 21301304, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
   - {fileID: 21302816, guid: 70deb5040b2b00442926e83c02fe9976, type: 3}
@@ -10263,7 +10263,6 @@ SpriteAtlas:
   - ProjectUtumno_full_6039
   - ProjectUtumno_full_2650
   - ProjectUtumno_full_830
-  - ProjectUtumno_full_2602
   - ProjectUtumno_full_4842
   - ProjectUtumno_full_4834
   - ProjectUtumno_full_4552
@@ -13291,6 +13290,7 @@ SpriteAtlas:
   - ProjectUtumno_full_2779
   - ProjectUtumno_full_2701
   - ProjectUtumno_full_2715
+  - Gold
   - ProjectUtumno_full_664
   - ProjectUtumno_full_652
   - ProjectUtumno_full_1408

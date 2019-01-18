@@ -2604,7 +2604,7 @@ TextureImporter:
     21305198: ProjectUtumno_full_2599
     21305200: ProjectUtumno_full_2600
     21305202: ProjectUtumno_full_2601
-    21305204: ProjectUtumno_full_2602
+    21305204: Gold
     21305206: ProjectUtumno_full_2603
     21305208: ProjectUtumno_full_2604
     21305210: ProjectUtumno_full_2605
@@ -58188,7 +58188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectUtumno_full_2602
+      name: Gold
       rect:
         serializedVersion: 2
         x: 1344
