@@ -14,6 +14,10 @@ public class RoomTrigger : MonoBehaviour
     public Vector3 cameraDestination;
     public Text roomDescription;
     public string roomTitle;
+    public bool sceneSwitch;
+
+    public Vector2 newMaxPosition;
+    public Vector2 newMinPosition;
 
     public bool exit;
 
@@ -27,24 +31,38 @@ public class RoomTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if (sceneSwitch == false)
         {
-            if (exit == false)
+            if (collision.CompareTag("Player"))
             {
-                cam.GetComponent<CameraMovement>().enabled = false;
-                cam.transform.position = cameraDestination;
-                collision.transform.position = playerDestination;
-                StartCoroutine("RoomTextFade");
-            }
+                if (exit == false)
+                {
+                    cam.GetComponent<CameraMovement>().enabled = false;
+                    cam.transform.position = cameraDestination;
+                    collision.transform.position = playerDestination;
+                    StartCoroutine("RoomTextFade");
+                }
 
-            else if (exit == true)
+                else if (exit == true)
+                {
+                    collision.transform.position = playerDestination;
+                    cam.transform.position = cameraDestination;
+                    cam.GetComponent<CameraMovement>().enabled = true;
+                }
+
+            }
+        }
+        if(sceneSwitch == true)
+        {
+            if(collision.CompareTag("Player"))
             {
                 collision.transform.position = playerDestination;
                 cam.transform.position = cameraDestination;
-                cam.GetComponent<CameraMovement>().enabled = true;
+                cam.GetComponent<CameraMovement>().maxPosition = newMaxPosition;
+                cam.GetComponent<CameraMovement>().minPosition = newMinPosition;
             }
-            
         }
+        
     }
 
     private IEnumerator RoomTextFade()
