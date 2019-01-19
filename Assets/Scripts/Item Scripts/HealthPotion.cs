@@ -22,7 +22,7 @@ public class HealthPotion : MonoBehaviour
     {
         if(entered == true && gameInfo.GetComponent<GameInfo>().fruitCount >= cost)
         {
-            if(Input.GetButtonDown("Use"))
+            if(Input.GetButtonDown("Use") && gameInfo.GetComponent<GameInfo>().playerHealth < gameInfo.GetComponent<GameInfo>().maxHealth)
             {
                 gameInfo.GetComponent<GameInfo>().playerHealth = gameInfo.GetComponent<GameInfo>().maxHealth;
                 StartCoroutine("PurchasedPotion");
