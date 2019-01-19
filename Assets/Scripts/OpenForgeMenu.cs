@@ -16,16 +16,13 @@ public class OpenForgeMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(nearForge == true)
+        if (nearForge == true)
         {
-            if (Input.GetKeyDown(KeyCode.F) && anim.GetBool("isOpen") == false)
-            {
-                anim.SetBool("isOpen", true);
-            }
-            else if (Input.GetKeyDown(KeyCode.F) && anim.GetBool("isOpen") == true)
-            {
-                anim.SetBool("isOpen", false);
-            }
+            anim.SetBool("isOpen", true);
+        }
+        else if (nearForge == false)
+        {
+            anim.SetBool("isOpen", false);
         }
         
     }

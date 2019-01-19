@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 7b25eb0d3e3369743981c5fc6be34ae4, type: 3}
-    totalSpriteSurfaceArea: 786349
+    totalSpriteSurfaceArea: 787885
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -291,6 +291,7 @@ SpriteAtlas:
   - {fileID: 21300358, guid: 6bf79d647d5647141a64cc7cd5e51d9d, type: 3}
   - {fileID: 21300338, guid: 6bf79d647d5647141a64cc7cd5e51d9d, type: 3}
   - {fileID: 21300336, guid: 6bf79d647d5647141a64cc7cd5e51d9d, type: 3}
+  - {fileID: 21300526, guid: 6bf79d647d5647141a64cc7cd5e51d9d, type: 3}
   - {fileID: 21300062, guid: 6bf79d647d5647141a64cc7cd5e51d9d, type: 3}
   - {fileID: 21300060, guid: 6bf79d647d5647141a64cc7cd5e51d9d, type: 3}
   - {fileID: 21300066, guid: 6bf79d647d5647141a64cc7cd5e51d9d, type: 3}
@@ -1897,6 +1898,7 @@ SpriteAtlas:
   - Inner_179
   - Inner_169
   - Inner_168
+  - Furnace
   - Inner_31
   - Inner_30
   - Inner_33
