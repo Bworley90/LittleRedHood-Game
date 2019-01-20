@@ -26,6 +26,7 @@ public class PathBlockingLog : MonoBehaviour
                 {
                     gameObject.SetActive(false);
                     axeUI.SetActive(false);
+                    gameInfo.GetComponent<GameInfo>().axePurchased = false;
                     //add animation here
                 }
             }

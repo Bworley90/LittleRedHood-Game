@@ -20,14 +20,14 @@ public class GameInfo : MonoBehaviour
     // Item Info
 
     public int oreObtained;
-    public int ironSwordCost;
+    public int ironAxeCost;
 
     private void Start()
     {
         fruitCountMultiplier = 1;
         fruitCount = 0;
         axePurchased = false;
-        ironSwordCost = 5;
+        ironAxeCost = 5;
     }
 
 

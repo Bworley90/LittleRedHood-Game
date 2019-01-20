@@ -3064,7 +3064,7 @@ TextureImporter:
     21306118: ProjectUtumno_full_3059
     21306120: ProjectUtumno_full_3060
     21306122: ProjectUtumno_full_3061
-    21306124: ProjectUtumno_full_3062
+    21306124: Wood Axe
     21306126: ProjectUtumno_full_3063
     21306128: ProjectUtumno_full_3064
     21306130: ProjectUtumno_full_3065
@@ -67388,7 +67388,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ProjectUtumno_full_3062
+      name: Wood Axe
       rect:
         serializedVersion: 2
         x: 1728
