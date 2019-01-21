@@ -24,10 +24,10 @@ public class PathBlockingLog : MonoBehaviour
             {
                 if(Input.GetButtonDown("Use"))
                 {
+                    entered = false;
                     gameObject.SetActive(false);
                     axeUI.SetActive(false);
                     gameInfo.GetComponent<GameInfo>().axePurchased = false;
-                    //add animation here
                 }
             }
         }

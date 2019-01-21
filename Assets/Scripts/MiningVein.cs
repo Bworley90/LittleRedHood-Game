@@ -4,70 +4,70 @@ using UnityEngine;
 
 public class MiningVein : MonoBehaviour
 {
-    public GameObject gameInfo;
-    public bool entered;
     public Sprite damageVein;
-    private bool damagedVein;
     public Sprite finishedVein;
-    private bool finished;
+    public int healthOfNode;
+    public bool inRange = false;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        entered = false;
-        gameInfo = GameObject.FindGameObjectWithTag("GameInfo");
-        damagedVein = false;
-        finished = false;
+        healthOfNode = Random.Range(3, 6);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        if (entered == true && finished == false)
+        if(Input.GetButtonDown("Use") && inRange == true)
         {
-            if(Input.GetButtonDown("Use"))
-            {
-                StartCoroutine("Mining");
-            }
+            HealthCheck();
         }
+    }
+
+    
+
+    private void HealthCheck()
+    {
+        if (healthOfNode >= 4)
+        {
+            GameInfo.oreObtained += 1;
+            healthOfNode -= 1;
+        }
+        else if (healthOfNode == 1 ||healthOfNode == 2 || healthOfNode == 3)
+        {
+            GetComponent<SpriteRenderer>().sprite = damageVein;
+            GameInfo.oreObtained += 1;
+            healthOfNode -= 1;
+        }
+        else if (healthOfNode == 0)
+        {
+            GameInfo.oreObtained += 1;
+            GetComponent<SpriteRenderer>().sprite = finishedVein;
+            StartCoroutine("FinishedMining");
+            healthOfNode -= 1;
+        }
+    }
+
+    private IEnumerator FinishedMining()
+    {
+        yield return new WaitForSeconds(3.0f);
+        gameObject.SetActive(false);
+        // Possibly respawn a node somewhere
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
-            entered = true;
-        }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if(collision.CompareTag("Player"))
-        {
-            entered = false;
+            inRange = true;
         }
     }
 
-    private IEnumerator Mining()
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        if(damagedVein == false)
+        if (collision.CompareTag("Player"))
         {
-            entered = false;
-            gameInfo.GetComponent<GameInfo>().oreObtained += 1;
-            gameObject.GetComponent<SpriteRenderer>().sprite = damageVein;
-            yield return new WaitForSeconds(2.0f);
-            entered = true;
-            damagedVein = true;
+            inRange = false;
         }
-        else if(damagedVein == true)
-        {
-            entered = false;
-            gameInfo.GetComponent<GameInfo>().oreObtained += 1;
-            gameObject.GetComponent<SpriteRenderer>().sprite = finishedVein;
-            yield return new WaitForSeconds(2.0f);
-            finished = true;
-            yield return new WaitForSeconds(3.0f);
-            gameObject.SetActive(false);
-        }
-        
     }
+
 }

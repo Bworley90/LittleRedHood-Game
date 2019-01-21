@@ -19,7 +19,7 @@ public class GameInfo : MonoBehaviour
 
     // Item Info
 
-    public int oreObtained;
+    public static int oreObtained;
     public int ironAxeCost;
 
     private void Start()

@@ -8,11 +8,12 @@ public class OreColorChange : MonoBehaviour
 
     public Sprite orangeButton;
     public Sprite greenButton;
-    public GameObject gameInfo;
+    private GameObject gameInfo;
     public GameObject axeUI;
     public GameObject axeCostText;
     public int oreCount;
     public int cost;
+    public GameObject forgeMenuUI;
 
 
     // Start is called before the first frame update
@@ -34,14 +35,12 @@ public class OreColorChange : MonoBehaviour
 
 
     private void CanCraft()
-    {
-        oreCount = gameInfo.GetComponent<GameInfo>().oreObtained;
-
-        if (oreCount < cost)
+    { 
+        if (GameInfo.oreObtained < cost)
         {
             gameObject.GetComponent<Image>().sprite = orangeButton;
         }
-        else if (oreCount >= cost)
+        else if (GameInfo.oreObtained >= cost)
         {
             gameObject.GetComponent<Image>().sprite = greenButton;
         }
@@ -49,12 +48,15 @@ public class OreColorChange : MonoBehaviour
 
     public void CraftIronAxe ()
     {
-        if (gameInfo.GetComponent<GameInfo>().oreObtained >= cost && gameInfo.GetComponent<GameInfo>().axePurchased == false)
+        if (GameInfo.oreObtained >= cost && gameInfo.GetComponent<GameInfo>().axePurchased == false)
         {
-            gameInfo.GetComponent<GameInfo>().oreObtained -= cost;
-            gameInfo.GetComponent<GameInfo>().axePurchased = true;
-            axeUI.SetActive(true);
-
+            if(forgeMenuUI.GetComponent<Animator>().GetBool("isOpen"))
+            {
+                GameInfo.oreObtained -= cost;
+                gameInfo.GetComponent<GameInfo>().axePurchased = true;
+                axeUI.SetActive(true);
+                Debug.Log("Craft Axe");
+            }
 
         }
     }

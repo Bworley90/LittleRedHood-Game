@@ -18,6 +18,6 @@ public class OreCount : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.GetComponent<Text>().text = gameInfo.GetComponent<GameInfo>().oreObtained.ToString();
+        gameObject.GetComponent<Text>().text = GameInfo.oreObtained.ToString();
     }
 }
