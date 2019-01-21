@@ -1,9 +1,7 @@
 fileFormatVersion: 2
-guid: a48c822f90aea784683f132b452996b0
+guid: 8415f9be356000c4db8eb39010299288
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: greySquare9Slice
-    21300002: dialogBox9Slice
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -42,12 +40,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 2024
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,51 +82,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: greySquare9Slice
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 415
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 5, y: 7, z: 4, w: 5}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 479e1c6e9cb88724db72b7b490c8f543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dialogBox9Slice
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 464
-        width: 193
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 7, y: 4, z: 5, w: 7}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3742e81f6a98d3b4084424f5b5f19391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 63024d0e26a2a834d9e291b0adbf3744
+    spriteID: f466855bb09fcca4abcd30c393513f20
     vertices: []
     indices: 
     edges: []
